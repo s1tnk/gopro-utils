@@ -64,6 +64,10 @@ func Read(f io.Reader) (*TELEM, error) {
 		"WNDM",
 		"MWET",
 		"AALP",
+		"MSKP",
+		"LRVO",
+		"LRVS",
+		"LSKP",
 	}
 
 	label := make([]byte, 4, 4) // 4 byte ascii label of data
